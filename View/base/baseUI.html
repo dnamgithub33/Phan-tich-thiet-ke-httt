@@ -1,0 +1,53 @@
+<div class="col-auto col-md-3 col-xl-2 col-2 bg-dark">
+    <div
+        class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+
+        <div class="title">
+            <p>Công ty cung cấp nhân công PTIT</p>
+        </div>
+        <hr style="border: 2px solid white; min-width: 100%">
+        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+            id="menu" style="min-width: 100%">
+            <li class="nav-item side-item">
+                <a href="home.php" class="nav-link align-middle px-0 text-white">
+                    <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Trang chủ</span>
+                </a>
+            </li>
+
+            <li class="nav-item side-item dropdown">
+                <a class="nav-link dropdown-toggle px-0 align-middle text-white" href="laborerlist.php"
+                    id="navbarDropdownStaff" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fs-4 bi bi-people"></i> <span class="ms-1 d-none d-sm-inline">Người lao động</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownStaff">
+                    <li><a class="dropdown-item" href="laborerlist.php">DS người lao động</a></li>
+                    <li><a class="dropdown-item" href="addlaborer.php">Thêm người lao động</a></li>
+                    <!-- Các mục dropdown khác có thể thêm vào đây -->
+                </ul>
+            </li>
+
+            <li class="nav-item side-item">
+                <a href="laborerlist_contract.php" class="nav-link align-middle px-0 text-white">
+                    <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Hợp đồng</span>
+                </a>
+            </li>
+
+        </ul>
+
+        <hr style="border: 2px solid white; min-width: 100%">
+        <div class="dropdown pb-4">
+            <a href="logout.php"
+                class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../base/image/admin.png" alt="hugenerd" width="50" height="50"
+                    class="rounded-circle">
+                <span class="d-none d-sm-inline mx-3">[user]</span>
+            </a>
+            <ul class="dropdown-menu text-small shadow"
+                aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="../logout.php">Sign out</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
